@@ -30,6 +30,7 @@ def get_all_ngos():
     return jsonify(ngos)
 
 
+
 if __name__ == '__main__':
     app.run()
 
