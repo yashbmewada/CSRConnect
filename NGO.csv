@@ -1,0 +1,19 @@
+id,name,Goal,new_donor_growth,donor_opt_out_rate,donations_per_year,cost_per_dollar_raised,new_internal_projects,project_delay_rate,score
+1,Concern Worldwide,No Poverty,19,6,5400,0.7,78,45,-200
+2,Feeding America,Zero Hunger,16,12,5666,0.59,26,23,0
+3,Teach for America,Quality Education,56,8,2333,0.78,895,4,200
+4,Equality Now,Gender Equality,12,6,785,1.2,50,2,0
+5,Water.Org,Water & Sanitation,45,49,78,1.3,95,19,0
+6,Green Peace,Affordable & Clean energy,65,69,899,0.98,895,9,200
+7,Climate & Clean Air Coalition,Climate Action,78,9,3210,0.65,899,10,400
+8,National Fish and Wildlife Foundation (NFWF),Wildlife & Oceanlife,36,15,788,0.4,385,52,-600
+9,Trickle Up,No Poverty,47,12,7888,1.1,126,6,400
+10,The Hunger Project,Zero Hunger,78,7,2366,0.89,655,16,400
+11,Teach Plus,Quality Education,12,10,365,0.9,78,29,-200
+12,White Ribbon,Gender Equality,40,3,800,0.8,125,17,-200
+13,BloodWater,Water & Sanitation,89,13,5699,0.75,745,12,400
+14,Renewable World,Affordable & Clean energy,41,8,4522,0.75,452,16,300
+15,Friends of Earth,Climate Action,25,12,1089,0.98,789,56,0
+16,Oceana,Wildlife & Oceanlife,8,6,56,0.9,58,38,-200
+17,ACT,Peace,19,6,785,0.55,88,68,-400
+18,Concordis International,Peace,62,5,556,0.9,652,32,200
