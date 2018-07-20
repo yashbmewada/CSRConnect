@@ -35,7 +35,15 @@ def getcompany(id):
         final.append(document)
     return jsonify(final)
 
-
+@app.route('/ngo/<id>')
+def getngo(id):
+    final = []
+    collection = db.ngos
+    print("---------")
+    cursor = collection.find({'id':int(id)},{'_id':0})
+    for document in cursor:
+        final.append(document)
+    return jsonify(final)
 
 
 if __name__ == '__main__':
