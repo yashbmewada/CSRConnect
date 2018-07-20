@@ -22,8 +22,19 @@ def getAllCompany():
     print(cursor)
     for document in cursor:
         final.append(document)
-    print(final)
     return jsonify(final)
+
+@app.route('/company/<id>')
+def getcompany(id):
+    final = []
+    collection = db.company
+    print("---------")
+    print(type(id))
+    cursor = collection.find({'id':int(id)},{'_id':0})
+    for document in cursor:
+        final.append(document)
+    return jsonify(final)
+
 
 
 
